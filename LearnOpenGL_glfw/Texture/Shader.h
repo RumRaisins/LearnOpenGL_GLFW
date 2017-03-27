@@ -9,7 +9,7 @@
 #include<glew.h>
 class Shader {
 
-public :
+public:
 	GLuint Program;
 
 	Shader(const GLchar* vertexPath, const GLchar* fragmentPath)
@@ -86,3 +86,4 @@ public :
 
 
 #endif // ! SHADER_H
+
